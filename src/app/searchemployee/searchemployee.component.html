@@ -8,13 +8,13 @@
 
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 xxl-6"><br>
                     <label for="Employee code">Employee code</label>
-                    <input type="text" class="form-control" placeholder="Enter your Employee code">
+                    <input type="text" class="form-control" placeholder="Enter your Employee code" name="employeeCode" [(ngModel)]="employeeCode">
         
                 </div>
 
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12"><br>
                         
-                    <button class="btn btn-success">Submit</button>
+                    <button class="btn btn-success" (click)="readValues()">Search</button>
                     
                 </div>
         
